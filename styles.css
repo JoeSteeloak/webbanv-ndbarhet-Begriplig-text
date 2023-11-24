@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,17 +9,79 @@ body {
 
 /* Se till att rubrikerna ligger närmre sitt innehåll än innehållet före */
 article, section, h1 {
-    padding: 4% 4% 2%;
-    line-height: 1.15em;
+    padding: 4% 6% 2%;
+    line-height: 1.6rem;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 h2, h3 {
-    line-height: 1.5em;
+    line-height: 1.5rem;
     margin-bottom: 1%;
+    font-size: 1.5rem;
 }
 
-p {
+p, li, footer {
     margin-top: 1%;
     margin-bottom: 4%;
+    font-size: 1.2rem;
 }
 
+#quote1 {
+    margin: auto;
+    background-image: url("CF017374.jpg");
+    width: 100%;
+    max-width: 1000px;
+    max-height: 750px;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+#quote1 > p {
+    padding: 5% 20% 35%;
+}
+
+#quote2 {
+    margin: auto;
+    background-image: url("marie.jpg");
+    width: 90%;
+    max-width: 1000px;
+    max-height: 562px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+#quote2 > p {
+    padding: 20%;
+}
+
+#quote2 > footer {
+    padding-bottom: 5%;
+}
+
+.header-pic {
+    max-width: 1000px;
+    max-height: 750px;
+    display: block;
+    margin: auto;
+    height: 80vh;
+}
+
+@media screen and (min-width: 800px) {
+    li {
+        margin-bottom: 1px;
+    }
+    section {
+        margin-top: 2%;
+    }
+    main {
+        margin: auto 20% 
+    }
+}
