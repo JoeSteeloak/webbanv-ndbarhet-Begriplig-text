@@ -8,7 +8,9 @@ body {
 }
 
 /* Se till att rubrikerna ligger närmre sitt innehåll än innehållet före */
-article, section, h1 {
+article,
+section,
+h1 {
     padding: 4% 6% 2%;
     line-height: 1.6rem;
 }
@@ -17,13 +19,16 @@ h1 {
     font-size: 3rem;
 }
 
-h2, h3 {
+h2,
+h3 {
     line-height: 1.5rem;
     margin-bottom: 1%;
     font-size: 1.5rem;
 }
 
-p, li, footer {
+p,
+li,
+footer {
     margin-top: 1%;
     margin-bottom: 4%;
     font-size: 1.2rem;
@@ -41,7 +46,8 @@ p, li, footer {
     background-size: cover;
     margin-bottom: 5%;
 }
-#quote1 > p {
+
+#quote1>p {
     padding: 5% 20% 35%;
 }
 
@@ -58,13 +64,13 @@ p, li, footer {
     margin-bottom: 5%;
 }
 
-#quote2 > p {
+#quote2>p {
     padding: 20%;
     padding-bottom: 10%;
     font-size: 2rem;
 }
 
-#quote2 > footer {
+#quote2>footer {
     padding-bottom: 5%;
 }
 
@@ -73,23 +79,28 @@ p, li, footer {
     max-height: 750px;
     display: block;
     margin: auto;
-    height: 80vh;
+
+    width: 100%;
 }
 
 @media screen and (min-width: 800px) {
     li {
         margin-bottom: 1px;
     }
+
     section {
         margin-top: 2%;
     }
+
     main {
-        margin: auto 20% 
+        margin: auto 20%
     }
-    #quote1 > p {
+
+    #quote1>p {
         font-size: 2rem;
     }
-    #quote2 > footer {
+
+    #quote2>footer {
         padding-bottom: 5%;
         font-size: 1.6rem;
     }
