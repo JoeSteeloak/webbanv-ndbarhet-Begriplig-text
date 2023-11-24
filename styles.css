@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+/* Se till att rubrikerna ligger närmre sitt innehåll än innehållet före */
+article, section, h1 {
+    padding: 4% 4% 2%;
+    line-height: 1.15em;
+}
+
+h2, h3 {
+    line-height: 1.5em;
+    margin-bottom: 1%;
+}
+
+p {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
