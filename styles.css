@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+
 }
 
 /* Se till att rubrikerna ligger närmre sitt innehåll än innehållet före */
@@ -13,6 +14,7 @@ section,
 h1 {
     padding: 4% 6% 2%;
     line-height: 1.6rem;
+    
 }
 
 h1 {
@@ -51,6 +53,10 @@ footer {
     padding: 5% 20% 35%;
 }
 
+p {
+    max-width: 36em;
+}
+
 #quote2 {
     margin: auto;
     background-image: url("marie.jpg");
@@ -62,6 +68,7 @@ footer {
     text-align: center;
     background-size: cover;
     margin-bottom: 5%;
+    background-color: black;
 }
 
 #quote2>p {
@@ -79,7 +86,6 @@ footer {
     max-height: 750px;
     display: block;
     margin: auto;
-
     width: 100%;
 }
 
